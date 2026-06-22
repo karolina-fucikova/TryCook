@@ -19,7 +19,7 @@ Aplikace striktně dodržuje vrstvenou architekturu:
 ## 🔐 Bezpečnost a role
 Aplikace rozlišuje dvě základní úrovně přístupu:
 1. **Veřejný přístup:** Zobrazení dokumentace a možnost přihlášení.
-2. **Přihlášený uživatel (ROLE_USER / ROLE_ADMIN):** Možnost vytvářet a upravovat recepty. Citlivé operace (jako mazání receptů) jsou vyhrazeny výhradně pro roli `ADMIN`.
+2. **Přihlášený uživatel (ROLE_USER / ROLE_ADMIN):** Možnost vytvářet a upravovat recepty. Operace (jako mazání receptů) jsou vyhrazeny výhradně pro roli `ADMIN`.
 
 ## 🛠️ Jak aplikaci spustit
 1. Naklonujte si tento repozitář do počítače.
